@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Righteous';
+    background-image: url("./Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cabecalho{
+    background-color: #8470FF;
+    color: white;
+    padding: 1.5% 10%;
+    text-align: center;
+}
+
+.rodape{
+    background-color: #8470FF;
+    color: white;
+    padding: 1.5% 0%;
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    width: 80vw;
+    color: white;
+    font-size: 40px;
+}
+
+.textone, .texttwo, .textthre {
+    display: none;
+    text-align: center;
+    width: 80vw;
+    color: white;
+    font-size: 24px;
+}
+
+.textfour, .textfive, .textsix {
+    display: none;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    color: white;
+    font-size: 24px;
+}
+
+.textfinal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+    color: white;
+    font-size: 30px;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+    font-family: 'Righteous';
+    border: none;
+    background-color: #8470FF;
+    color: white;
+    width: 500px;
+    height: 70px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.botao:hover{
+    background-color: #9385f4;
+    cursor: pointer;
+}
+
+.cardone, .cardtwo, .cardthre, .cardfour, .cardfive {
+    display: none;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    background-color: #8470FF;
+    width: 75vw;
+    padding: 50px 0px;
+    border-radius: 50px;
+}
+
+.cardsix {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #8470FF;
+    width: 60vw;
+    padding: 40px 0px;
+    border-radius: 50px;
+}
+
+img {
+    width: 17%;
+    height: 17%;
+    border-radius: 10px;
+}
+
+.image-final {
+    border-radius: 50px;
+    width: 90%;
+}

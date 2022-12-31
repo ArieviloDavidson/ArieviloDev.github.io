@@ -60,7 +60,7 @@ img {
     body{
         gap: 20px;
         background-image: url("./Images/celular.jpeg");
-        background-size: 100%;
+        background-size: 120%;
         background-attachment: fixed;
     }
 

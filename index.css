@@ -6,11 +6,8 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
+    gap: 50px;
     font-family: 'Righteous';
-    color: white;
     background-image: url("./Images/bg.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -18,8 +15,63 @@ body {
     background-attachment: fixed;
 }
 
-.texto {
+.cabecalho{
+    background-color: #8470FF;
+    color: white;
+    padding: 1.5% 10%;
+    text-align: center;
+}
+
+.rodape{
+    background-color: #8470FF;
+    color: white;
+    padding: 1.5% 0%;
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    width: 80vw;
+    color: white;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+.textone, .texttwo, .textthre {
     display: none;
+    text-align: center;
+    width: 80vw;
+    color: white;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.textfour, .textfive, .textsix {
+    display: none;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    color: white;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.textfinal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+    color: white;
+    font-size: 30px;
+    line-height: 140%;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
 .botao {
@@ -39,21 +91,38 @@ body {
     cursor: pointer;
 }
 
-.card {
+.cardone, .cardtwo, .cardthre, .cardfour, .cardfive {
     display: none;
     flex-direction: row;
     gap: 50px;
     justify-content: center;
     background-color: #8470FF;
-    width: 80vw;
+    width: 75vw;
     padding: 50px 0px;
     border-radius: 50px;
 }
 
+.cardsix {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #8470FF;
+    width: 60vw;
+    padding: 40px 0px;
+    border-radius: 50px;
+}
+
 img {
-    width: 15%;
+    width: 17%;
     height: 17%;
     border-radius: 10px;
+}
+
+.image-final {
+    border-radius: 50px;
+    width: 90%;
 }
 
 @media (max-width: 450px) {
@@ -64,23 +133,59 @@ img {
         background-attachment: fixed;
     }
 
-    .botao {
+    .description{
+        text-align: center;
+        width: 90vw;
+        color: white;
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .textone, .texttwo, .textthre {
+        font-size: 18px;
+        width: 90vw;
+    }
+    
+    .textfour, .textfive, .textsix {
+        font-size: 18px;
+        width: 90vw;
+    }
+    
+    .textfinal {
+        font-size: 18px;
         width: 90vw;
     }
 
-    .card {
+    .corpo {
+        gap: 20px;
+    }
+
+    .botao {
+        width: 85vw;
+        font-size: 16px;
+    }
+
+    .cardone, .cardtwo, .cardthre, .cardfour, .cardfive {
+        width: 80vw;
         flex-direction: column;
         align-items: center;
-        gap: 20px;
-        padding-top: 20px;
+        padding: 30px 0px;
+    }
+
+    .cardsix {
+        width: 95vw;
     }
 
     img {
-        width: 80%;
+        width: 70%;
+        height: 70%;
+        border-radius: 10px;
     }
 
-    .texto {
-        display: flex;
-        font-size: 24px;
+    .image-final {
+        width: 95%;
     }
 }
